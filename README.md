@@ -4,9 +4,9 @@ SQS Fila
 
 SQS Fila Morta
 
-IAM Usuário Consumidor
+IAM Usuário Consumidor (Com Access Key e Secret Key)
 
-IAM Usuário Produtor
+IAM Usuário Produtor (Com Access Key e Secret Key)
 
 IAM Adicionar Permissao a politica de desenvolvedor para as filas de ambiente HML e QA
 
