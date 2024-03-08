@@ -159,6 +159,8 @@ resource "aws_iam_policy" "politica_sqs_prd" {
     })
     depends_on = [aws_sqs_queue.terraform_queue, aws_sqs_queue.terraform_queue_deadletter]
 }
+
+#CRIAR TOPICO E ALERTAS POR FILA MORTA DE PRD
 resource "aws_sns_topic" "topico_sns_dead_letter" {
     name = var.name_topic_alert_dead_letter
 }
