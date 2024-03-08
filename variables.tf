@@ -22,3 +22,12 @@ variable "message_retention_seconds" {
     type    = number
     default = 1209600
 }
+
+variable "name_topic_alert_dead_letter" {
+    type    = string
+    default = "alarme-fila-morta"
+}
+
+variable "email_topic_subscription" {
+    type    = string
+}
