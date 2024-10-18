@@ -8,6 +8,4 @@ IAM Usuário Consumidor (Com Access Key e Secret Key)
 
 IAM Usuário Produtor (Com Access Key e Secret Key)
 
-IAM Adicionar Permissao a politica de desenvolvedor para as filas de ambiente HML e QA
-
-IAM Adicionar Permissao a politica de especialista e analista de infraestrutura para as filas de ambiente PRD
+IAM Adicionar Permissao a politica de baixo e alto nível (Dev x Tech Lead) para as filas por ambiente
